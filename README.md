@@ -1,5 +1,5 @@
 # go-xxl-job-client
-## xxl-job go客户端版
+## xxl-job go版客户端
 ## 介绍
 xxj-job是一个Java实现的轻量级分布式任务调度平台，具体实现与使用请参考[https://github.com/xuxueli/xxl-job][1]，原版执行器亦要求Java平台，但公司部分项目是golang开发，所有自己实现了go版本的执行器。
 ## 写在前面
