@@ -1,4 +1,4 @@
-module github.com/feixiaobo/go-xxl-job-client
+module github.com/matthew188/go-xxl-job
 
 go 1.12
 

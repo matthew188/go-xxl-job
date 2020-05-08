@@ -3,9 +3,9 @@ package handler
 import (
 	"context"
 	"github.com/apache/dubbo-go-hessian2"
-	"github.com/feixiaobo/go-xxl-job-client/admin"
-	"github.com/feixiaobo/go-xxl-job-client/logger"
-	"github.com/feixiaobo/go-xxl-job-client/utils"
+	"github.com/matthew188/go-xxl-job/admin"
+	"github.com/matthew188/go-xxl-job/logger"
+	"github.com/matthew188/go-xxl-job/utils"
 	"log"
 	"net/http"
 	"reflect"

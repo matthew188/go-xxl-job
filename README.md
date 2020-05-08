@@ -11,7 +11,7 @@ xxj-job是一个Java实现的轻量级分布式任务调度平台，具体实现
 ## 部署xxl-job执行器（go版本）
 ### (1) 引入go客户端依赖
 ```
-go get github.com/feixiaobo/go-xxl-job-client
+go get github.com/matthew188/go-xxl-job
 ```
 ### (2) 在main方法中注册执行器，任务，启动web端口
 #### (1) 实现任务
@@ -43,7 +43,7 @@ func XxlJobTest(ctx context.Context) error {
 添加完成后启动在任务管理菜单中查看任务
 ![](https://github.com/feixiaobo/images/blob/master/1577632360005.jpg)
 ## 日志输出及参数传递
-* go-xxl-job-client自己实现了日志输出，使用github.com/feixiaobo/go-xxl-job-client/logger包输出日志，因为golang不支持像Java的ThreadLocal一样的线程变量，已无法获取到golang的协程id,所以日志输出依赖的内容已存到context上下文遍历中，故log需要使用context变量。可参考任务配置中的日志输出,  
+* go-xxl-job-client自己实现了日志输出，使用github.com/matthew188/go-xxl-job/logger包输出日志，因为golang不支持像Java的ThreadLocal一样的线程变量，已无法获取到golang的协程id,所以日志输出依赖的内容已存到context上下文遍历中，故log需要使用context变量。可参考任务配置中的日志输出,  
 ```
 	logger.Info(ctx, "golang job run success >>>>>>>>>>>>>>")
 ```

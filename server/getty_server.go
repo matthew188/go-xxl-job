@@ -4,8 +4,8 @@ import (
 	"github.com/dubbogo/getty"
 	"github.com/dubbogo/getty/demo/util"
 	"github.com/dubbogo/gost/sync"
-	"github.com/feixiaobo/go-xxl-job-client/admin"
-	"github.com/feixiaobo/go-xxl-job-client/handler"
+	"github.com/matthew188/go-xxl-job/admin"
+	"github.com/matthew188/go-xxl-job/handler"
 	"strconv"
 )
 

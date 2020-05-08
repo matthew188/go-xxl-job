@@ -3,10 +3,10 @@ package xxl
 import (
 	"context"
 	"github.com/apache/dubbo-go-hessian2"
-	"github.com/feixiaobo/go-xxl-job-client/admin"
-	"github.com/feixiaobo/go-xxl-job-client/handler"
-	"github.com/feixiaobo/go-xxl-job-client/logger"
-	"github.com/feixiaobo/go-xxl-job-client/server"
+	"github.com/matthew188/go-xxl-job/admin"
+	"github.com/matthew188/go-xxl-job/handler"
+	"github.com/matthew188/go-xxl-job/logger"
+	"github.com/matthew188/go-xxl-job/server"
 	"time"
 )
 
