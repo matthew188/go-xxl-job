@@ -2,7 +2,7 @@ package handler
 
 import (
 	"github.com/dubbogo/getty"
-	"github.com/feixiaobo/go-xxl-job-client/transport"
+	"github.com/matthew188/go-xxl-job/transport"
 	"log"
 	"net/http"
 	"time"
