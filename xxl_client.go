@@ -3,6 +3,7 @@ package xxl
 import (
 	"context"
 	"github.com/apache/dubbo-go-hessian2"
+	"github.com/dubbogo/getty"
 	"github.com/matthew188/go-xxl-job/admin"
 	"github.com/matthew188/go-xxl-job/handler"
 	"github.com/matthew188/go-xxl-job/logger"
@@ -47,6 +48,7 @@ func RunServer() {
 	if xxl.XxlAdmin.Port == 0 {
 		panic("executor must be init before run server")
 	}
+	getty.SetLoggerLevel(getty.LoggerLevelWarn)
 	server.StartServer()
 }
 
